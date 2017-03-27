@@ -4,6 +4,11 @@ import test
 import main.nltk.nltk_keywords as nltkm
 
 app = Flask(__name__)
+app.config.update(
+    DEBUG=True,
+    TESTING=True,
+    TEMPLATES_AUTO_RELOAD=True
+)
 
 tasks = [
     {
