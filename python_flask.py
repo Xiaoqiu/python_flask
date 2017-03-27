@@ -37,13 +37,17 @@ def h():
 def say():
     return test.say()
 
-# @app.route('/anw')
-# def anw():
-#     return nltkm.anw()
+@app.route('/test')
+def test():
+     return nltkm.test()
 
 @app.route('/keywords')
 def keywords():
     return jsonify(nltkm.lexical_diversity('hello you hello me'))
+
+@app.route('/count_words')
+def count_words():
+    return nltkm.count_words()
 
 @app.route('/todo/api/v1.0/tasks', methods=['GET'])
 def get_tasks():
