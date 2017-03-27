@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f791b3-8c5c-4f1f-ab68-0a9799e2996a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/nltk/nltk_keywords.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_flask.py" afterPath="$PROJECT_DIR$/python_flask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/packaging-16.8.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/packaging-16.8.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-9.0.1.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-34.3.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-34.3.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.29.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.29.0.dist-info/RECORD" />
     </list>
     <ignored path="python_flask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +28,21 @@
       <file leaf-file-name="python_flask.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_flask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="169">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uwsgiconfig.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -501,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490429252932</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test function for nltk&#10;">
+      <created>1490580721635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490580721635</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -535,7 +543,8 @@
     <MESSAGE value="create project" />
     <MESSAGE value="install virtualenv" />
     <MESSAGE value="change uwsgi config file&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="change uwsgi config file&#10;" />
+    <MESSAGE value="test function for nltk&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="test function for nltk&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -594,14 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flaskrelated.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -628,10 +629,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_flask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="169">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
